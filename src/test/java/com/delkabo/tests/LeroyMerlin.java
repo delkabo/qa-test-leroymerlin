@@ -4,7 +4,7 @@ import com.codeborne.selenide.SelenideElement;
 import com.delkabo.components.LeroyMerlinObject;
 import org.junit.jupiter.api.Test;
 
-public class LeroyMerlin {
+public class LeroyMerlin extends TestBase{
 
     LeroyMerlinObject leroyMerlinObject = new LeroyMerlinObject();
 
