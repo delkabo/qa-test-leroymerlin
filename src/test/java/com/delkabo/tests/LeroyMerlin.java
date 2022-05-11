@@ -12,9 +12,9 @@ public class LeroyMerlin extends TestBase{
 
     @Test
     void leroyMerlin() {
-        open("https://hh.ru/");
 
         leroyMerlinObject
+                .openPage()
                 .searchVacancy("Леруа Мерлен QA Automation")
                 .clickSearched("QA Automation")
                 .shouldTitle("Леруа Мерлен");
