@@ -22,7 +22,6 @@ public class TestBase {
 
         SelenideLogger.addListener("AllureSelenide", new AllureSelenide());
         DriverSettings.configure();
-        open();
     }
 
     @AfterEach
